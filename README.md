@@ -24,7 +24,7 @@ Demo of GDExtention + Webkit (WIP)
 ## MacOS development
 
 ### Install
-Install [Vulkan SDK](https://sdk.lunarg.com/sdk/download/latest/mac/vulkan-sdk.dmg)
+Install [Vulkan SDK](https://sdk.lunarg.com/sdk/download/latest/mac/vulkan-sdk.dmg), then
 
 ```sh
 brew install scons
