@@ -5,8 +5,13 @@
 
 namespace godot {
 
+    class GDExampleImplementation;
     class GDExample : public Control {
         GDCLASS(GDExample, Control)
+
+        GDExampleImplementation *data;
+
+        String home_url;
 
     private:
         double time_passed;
@@ -16,11 +21,14 @@ namespace godot {
 
     public:
         GDExample();
-        ~GDExample();
 
         void _process(double delta) override;
+
+        void set_url(const String &p_url);
+	    String get_url() const;
     };
 
 }
 
 #endif
+
