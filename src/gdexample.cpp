@@ -1,9 +1,9 @@
 #include "gdexample.h"
 #include <godot_cpp/core/class_db.hpp>
 
-#ifdef __OBJC__
+// #ifdef __OBJC__
 #include "webkit_demo.mm"
-#endif
+// #endif
 
 void godot::GDExample::_bind_methods() {
 }
